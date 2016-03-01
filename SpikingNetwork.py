@@ -45,3 +45,5 @@ class SpikingNetwork():
             
             self.vv[:,t+1] = (self.v[:,t+1] < self.vt).astype(int)
             self.v[:,t+1] = self.v[:,t+1] * self.vv[:,t+1] 
+            
+
