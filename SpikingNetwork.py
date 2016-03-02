@@ -1,3 +1,5 @@
+import numpy as np
+
 class SpikingNetwork():
     def __init__(self):
         # Defining network model parameters
