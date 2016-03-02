@@ -11,6 +11,8 @@ SN.W /= 10
 SN.parameter_initialisation()
 SN.trial()
 
+# Plotting
+
 plt.figure(figsize=(20,20))
 plt.pcolormesh(SN.v, cmap=plt.cm.get_cmap('PuBu'))
 dots = np.ma.masked_where(SN.vv != 1, SN.vv)
