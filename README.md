@@ -24,7 +24,11 @@ plt.xlabel('Time (ms)')
 plt.ylabel('Neuron number')
 plt.title('Spike times');
 
-
+# Output:
 ~~~
+
+![](http://i.imgur.com/f749x4Z.png)
+
+
 
 ***
